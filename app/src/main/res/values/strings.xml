@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Sidigi Apps</string>
+    <!--Onboarding Screen-->
+    <!--    tittle-->
+    <string name="first">Advertiser</string>
+    <string name="second">Bussines Owner</string>
+    <string name="three">Seller</string>
+    <!--    Description-->
+    <string name="first_desc">Ngiklan yuk</string>
+    <string name="second_desc">Kembangin Bisnis Yuk</string>
+    <string name="third_desc">Tingkatin Penjualan Yuk</string>
+
+    <!--    Button-->
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="let_get">Ayo Mulai !</string>
+
+    <!--    Menu-->
+    <string name="header">Layanan Digital Membantu Mengembangkan Bisnis Anda</string>
+    <string name="profil">Profil</string>
+    <string name="alamat">Alamat</string>
+    <string name="servise">Layanan</string>
+    <string name="servise2">Layanan Cepat</string>
+    <string name="unggul">Keunggulan</string>
+    <string name="tim">Tim Kami</string>
+    <string name="goal">Tujuan Anda</string>
+
+
+    <string name="judulregister">Pendaftaran Akun</string>
+    <string name="register">Register</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="repassword">Ulangi Password</string>
+    <string name="email">E-Mail</string>
+    <string name="nama">Nama</string>
+    <string name="alamt">Alamat Lengkap</string>
+    <string name="telepon">No.Telepon</string>
+    <string name="belum">Belum Punya Akun?</string>
+    <string name="sudah">Sudah Punya Akun?</string>
+    <string name="login">Silahkan Login</string>
+    <string name="siapa">Saya ?</string>
+    <string name="dev">Dikembangkan oleh : </string>
+    <string name="daftar">Pendaftaran Akun</string>
+
+
+</resources>
