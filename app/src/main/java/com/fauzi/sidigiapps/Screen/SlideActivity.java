@@ -1,4 +1,4 @@
-package com.fauzi.sidigiapps;
+package com.fauzi.sidigiapps.Screen;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -8,7 +8,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import com.fauzi.sidigiapps.Adapter.SlideViewPagerAdapter;
-import com.fauzi.sidigiapps.Screen.Login;
+import com.fauzi.sidigiapps.R;
 
 public class SlideActivity extends AppCompatActivity {
 

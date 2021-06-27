@@ -2,28 +2,28 @@
     <string name="app_name">Sidigi Apps</string>
     <!--Onboarding Screen-->
     <!--    tittle-->
-    <string name="first">Advertiser</string>
-    <string name="second">Bussines Owner</string>
-    <string name="three">Seller</string>
+    <string name="first">Kamu Advertiser?</string>
+    <string name="second">Bussines Owner?</string>
+    <string name="three">Seller?</string>
     <!--    Description-->
-    <string name="first_desc">Ngiklan yuk</string>
-    <string name="second_desc">Kembangin Bisnis Yuk</string>
-    <string name="third_desc">Tingkatin Penjualan Yuk</string>
+    <string name="first_desc">Jangkau Iklan Lebih Luas</string>
+    <string name="second_desc">Kembangin Bisnis Anda Bersama Kami</string>
+    <string name="third_desc">Tingkatin Penjualan mu dengan Branding dan Iklan efektif</string>
 
     <!--    Button-->
     <string name="skip">Skip</string>
     <string name="next">Next</string>
-    <string name="let_get">Ayo Mulai !</string>
+    <string name="let_get">Get Started</string>
 
     <!--    Menu-->
     <string name="header">Layanan Digital Membantu Mengembangkan Bisnis Anda</string>
-    <string name="profil">Profil</string>
+    <string name="profil">Tentang</string>
     <string name="alamat">Alamat</string>
     <string name="servise">Layanan</string>
     <string name="servise2">Layanan Cepat</string>
     <string name="unggul">Keunggulan</string>
-    <string name="tim">Tim Kami</string>
-    <string name="goal">Tujuan Anda</string>
+    <string name="tim">Konsultasi</string>
+    <string name="goal">Tujuan</string>
 
 
     <string name="judulregister">Pendaftaran Akun</string>
@@ -42,6 +42,17 @@
     <string name="siapa">Saya ?</string>
     <string name="dev">Dikembangkan oleh : </string>
     <string name="daftar">Pendaftaran Akun</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="menuprofil">Menu Profil</string>
+    <string name="profilsd">PROFIL SIANDONG DIGITAL ID</string>
+    <string name="isiprofilsd">VISI : Menjadi Partner Bisnis Agency Digital yang Terpercaya, Professional dan Berorientasi pada Hasil yang Diinginkan Pengguna</string>
+    <string name="isiprofilsd2">" Siandong Digital ID awalnya merupakan sebuah  bentuk komunitas gerakan literasi digital sebagai  wadah media informasi di generasi millenial dan  menjawab tantangan zaman di era informasi  khususnya di Desa Siandong Kecamatan  Larangan Kabupaten Brebes. Siandong Digital  berlokasi dan bernaung di Jalan Pesantren Rt 5  Rw 2 No.24 Dukuh Penjalinbanyu Desa Siandong  Kecamatan Larangan Kabupaten Brebes."</string>
+    <string name="unggulsd">KEUNGGULAN \n SIANDONG DIGITAL</string>
+    <string name="layanan">Menu Layanan</string>
+    <string name="menutujuan">Tujuan</string>
+    <string name="tujuansd">TUJUAN \n SIANDONG DIGITAL ID</string>
+    <string name="brand">BRANDING DESING</string>
+    <string name="ajukan">Ajukan Layanan</string>
 
 
 </resources>

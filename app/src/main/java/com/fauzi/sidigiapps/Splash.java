@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
 
+import com.fauzi.sidigiapps.Screen.SlideActivity;
+
 public class Splash extends AppCompatActivity {
 
 

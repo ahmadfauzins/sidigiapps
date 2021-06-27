@@ -13,10 +13,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
-import com.fauzi.sidigiapps.MainActivity;
 import com.fauzi.sidigiapps.R;
 import com.fauzi.sidigiapps.Screen.Login;
-import com.fauzi.sidigiapps.SlideActivity;
+import com.fauzi.sidigiapps.Screen.SlideActivity;
 
 public class SlideViewPagerAdapter extends PagerAdapter {
     Context ctx;
@@ -87,8 +86,8 @@ public class SlideViewPagerAdapter extends PagerAdapter {
                 ind2.setImageResource(R.drawable.unselected);
                 ind3.setImageResource(R.drawable.unselected);
 
-                title.setText("Kamu Advertiser?");
-                desc.setText("Kami Menyediakan Akun Iklan Berkualitas");
+                title.setText(R.string.first);
+                desc.setText(R.string.first_desc);
                   back.setVisibility(View.GONE);
                 next.setVisibility(View.VISIBLE);
                 btnGetStarted.setVisibility(View.GONE);
@@ -100,8 +99,8 @@ public class SlideViewPagerAdapter extends PagerAdapter {
                 ind2.setImageResource(R.drawable.seleted);
                 ind3.setImageResource(R.drawable.unselected);
 
-                title.setText("Bussiner Owner?");
-                desc.setText("Kembangkan Bisnis Anda dengan Iklan");
+                title.setText(R.string.second);
+                desc.setText(R.string.second_desc);
                 back.setVisibility(View.VISIBLE);
                 next.setVisibility(View.VISIBLE);
                 btnGetStarted.setVisibility(View.GONE);
@@ -112,8 +111,8 @@ public class SlideViewPagerAdapter extends PagerAdapter {
                 ind2.setImageResource(R.drawable.unselected);
                 ind3.setImageResource(R.drawable.seleted);
 
-                title.setText("Seller?");
-                desc.setText("Tingkatkan Penjualan Toko Anda Bersama Kami ");
+                title.setText(R.string.three);
+                desc.setText(R.string.third_desc);
                 back.setVisibility(View.VISIBLE);
                 next.setVisibility(View.GONE);
                 break;

@@ -1,13 +1,16 @@
 package com.fauzi.sidigiapps.api;
 
 
+import com.fauzi.sidigiapps.Model.DataLayanan;
 import com.fauzi.sidigiapps.Model.Pengguna;
+import com.fauzi.sidigiapps.Model.ResponseModel;
 
 import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
+import retrofit2.http.GET;
 import retrofit2.http.POST;
 
 public interface ApiInterface {
@@ -36,7 +39,23 @@ public interface ApiInterface {
     Call<List<Pengguna>> getUser(
             @Field("user_id") String user_id);
 
+//    @FormUrlEncoded
+//    @GET("get_layanan.php")
+//    Call<List<DataLayanan>> getLayanan(
+//            @Field("id_layanan") String id_layanan);
 
+    @FormUrlEncoded
+    @POST("get_layanan.php")
+    Call<List<DataLayanan>> getLayanan();
+
+    @FormUrlEncoded
+    @POST("get_cell.php")
+    Call<List<DataLayanan>> getCellular(
+            @Field("is_approved") String id);
+
+
+    @GET
+    ("get_layanan.php")
+    Call<ResponseModel> getData();
 }
-
 
