@@ -25,9 +25,9 @@ public class BuahDetail extends AppCompatActivity {
         String name = getIntent().getStringExtra(EXTRA_NAME);
         String detail = getIntent().getStringExtra(EXTRA_DETAIL);
 
-        placeImg = findViewById(R.id.img_place);
-        placeName = findViewById(R.id.tv_item_name);
-        placeDetail = findViewById(R.id.tv_item_detail);
+        placeImg = findViewById(R.id.kembali);
+        placeName = findViewById(R.id.judul);
+        placeDetail = findViewById(R.id.descbrand);
 
 //        Glide.with(this).load(img).into(placeImg);
         Picasso.get().load(img).into(placeImg);

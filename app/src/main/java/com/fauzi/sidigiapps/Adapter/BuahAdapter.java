@@ -45,8 +45,8 @@ public class BuahAdapter extends RecyclerView.Adapter<BuahAdapter.ListViewHolder
         Buah buah = listBuah.get(position);
         Picasso.get()
                 .load(buah.getPhoto())
-                .placeholder(R.drawable.icons8goal)
-                .error(R.drawable.ic_launcher_foreground)
+                .placeholder(R.drawable.icon)
+                .error(R.drawable.icon)
                 .into(holder.imgPhoto);
 
         holder.tvName.setText(buah.getName());
@@ -73,7 +73,7 @@ public class BuahAdapter extends RecyclerView.Adapter<BuahAdapter.ListViewHolder
             super(itemView);
             imgPhoto = itemView.findViewById(R.id.imgBuah);
             tvName = itemView.findViewById(R.id.name);
-            tvDetail = itemView.findViewById(R.id.manfaat);
+            tvDetail = itemView.findViewById(R.id.desc);
         }
     }
 }

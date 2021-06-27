@@ -16,9 +16,9 @@ public class BuahContent {
     };
 
     private static int[] buahImage= {
-            R.drawable.icons8google,
-            R.drawable.icons8goal,
-            R.drawable.icons8home
+            R.drawable.icon,
+            R.drawable.icon,
+            R.drawable.icon
     };
 
     public static ArrayList<Buah> getListData() {
